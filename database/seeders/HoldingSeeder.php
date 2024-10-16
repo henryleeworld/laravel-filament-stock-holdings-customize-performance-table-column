@@ -1,0 +1,186 @@
+<?php
+
+namespace Database\Seeders;
+
+use App\Models\Holding;
+use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use Illuminate\Database\Seeder;
+
+class HoldingSeeder extends Seeder
+{
+    /**
+     * Run the database seeders.
+     */
+    public function run(): void
+    {
+        $holdings = [
+            [
+                'id'                         => 1,
+                'symbol'                     => '2454.TW',
+                'name'                       => __('MediaTek Inc.'),
+                'quantity'                   => 45688072,
+                'market_price_current_month' => 129000,
+                'market_price_last_month'    => 117500,
+                'market_locale'              => 'TWD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 2,
+                'symbol'                     => '2881.TW',
+                'name'                       => __('Fubon Financial Holding Co., Ltd.'),
+                'quantity'                   => 93098313,
+                'market_price_current_month' => 9050,
+                'market_price_last_month'    => 9040,
+                'market_locale'              => 'TWD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 3,
+                'symbol'                     => '3045.TW',
+                'name'                       => __('Taiwan Mobile Co., Ltd.'),
+                'quantity'                   => 50326183,
+                'market_price_current_month' => 11250,
+                'market_price_last_month'    => 11500,
+                'market_locale'              => 'TWD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 4,
+                'symbol'                     => '5859.TWO',
+                'name'                       => __('Farglory Life Insurance Co., Ltd.'),
+                'quantity'                   => 361133,
+                'market_price_current_month' => 1870,
+                'market_price_last_month'    => 1890,
+                'market_locale'              => 'TWD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 5,
+                'symbol'                     => '601138.SS',
+                'name'                       => __('Foxconn Industrial Internet Co., Ltd.'),
+                'quantity'                   => 1044931617,
+                'market_price_current_month' => 2516,
+                'market_price_last_month'    => 2519,
+                'market_locale'              => 'CNY',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 6,
+                'symbol'                     => 'AAPL',
+                'name'                       => __('Apple Inc.'),
+                'quantity'                   => 372199000,
+                'market_price_current_month' => 23130,
+                'market_price_last_month'    => 23300,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 7,
+                'symbol'                     => 'ABNB',
+                'name'                       => __('Airbnb, Inc.'),
+                'quantity'                   => 29807900,
+                'market_price_current_month' => 13479,
+                'market_price_last_month'    => 12681,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 8,
+                'symbol'                     => 'ADBE',
+                'name'                       => __('Adobe Inc.'),
+                'quantity'                   => 30050600,
+                'market_price_current_month' => 50965,
+                'market_price_last_month'    => 51778,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 9,
+                'symbol'                     => 'ADI',
+                'name'                       => __('Analog Devices, Inc.'),
+                'quantity'                   => 20381000,
+                'market_price_current_month' => 23643,
+                'market_price_last_month'    => 22927,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 10,
+                'symbol'                     => 'ARKK',
+                'name'                       => __('ARK Innovation ETF'),
+                'quantity'                   => 4787600,
+                'market_price_current_month' => 4737,
+                'market_price_last_month'    => 4753,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 11,
+                'symbol'                     => 'AZN',
+                'name'                       => __('AstraZeneca PLC'),
+                'quantity'                   => 34725000,
+                'market_price_current_month' => 7810,
+                'market_price_last_month'    => 7790,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 12,
+                'symbol'                     => 'CHT',
+                'name'                       => __('Chunghwa Telecom Co., Ltd.'),
+                'quantity'                   => 918100,
+                'market_price_current_month' => 3795,
+                'market_price_last_month'    => 3967,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 13,
+                'symbol'                     => 'HSBC',
+                'name'                       => __('HSBC Holdings plc'),
+                'quantity'                   => 12660600,
+                'market_price_current_month' => 4436,
+                'market_price_last_month'    => 4519,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 14,
+                'symbol'                     => 'NET',
+                'name'                       => __('Cloudflare, Inc.'),
+                'quantity'                   => 28305000,
+                'market_price_current_month' => 9375,
+                'market_price_last_month'    => 8089,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+            [
+                'id'                         => 15,
+                'symbol'                     => 'TSM',
+                'name'                       => __('Taiwan Semiconductor Manufacturing Company Limited'),
+                'quantity'                   => 110238600,
+                'market_price_current_month' => 19221,
+                'market_price_last_month'    => 17367,
+                'market_locale'              => 'USD',
+                'type'                       => 'Equity',
+                'created_at'                 => now(),
+            ],
+        ];
+
+        Holding::insert($holdings);
+    }
+}
